@@ -1,0 +1,136 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.header {
+  color: #000000;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  justify-content:space-between;
+  border: 2px solid #4d4d4d;
+  border-radius: 5px;
+}
+
+.contact-info {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+#picture {
+  float: right;
+  margin-right: 30px;
+}
+
+img {
+  width: 170px;
+  height: 140px;
+}
+
+hr {
+  margin-top: 25px;
+  height: 6px;
+  background-color: #0d0d0d;
+}
+
+body {
+  width: 900px;
+  font-family: serif;
+}
+
+h2 {
+  font-size: 25px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+.about-me {
+  width: 900px;
+  padding-top: 5px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: serif;
+  background-color: #f2f2f2;
+}
+
+.experience ul {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.experience ul li {
+  padding: 5px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+}
+
+.education ul {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.education ul li {
+  padding: 5px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+}
+
+#resources ul {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+#resources ul li {
+  padding: 5px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+}
+
+#resources a {
+  color: #1a1aff;
+  text-decoration: none;
+}
+
+#resources a:hover {
+  color: #cc0088;
+}
+
+ #video {
+  padding-top: 10px;
+  margin-left: 40px;
+/*  list-style-type: none; */
+}
+
+#platforms ul {
+  padding: 10px;
+  margin-left: 30px;
+}
+
+#platforms ul li {
+  padding: 5px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+}
+
+#platforms a {
+  color: #1a1aff;
+  text-decoration: none;
+}
+
+#platforms a:hover {
+  color: #cc0088;
+}
