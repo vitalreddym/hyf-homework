@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="index3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Payment Form</h2>
+        <form action="#" method="get">
+            <h4>Account Holder Name</h4>
+            <div class="account-name">
+                <div class="credit-name">
+                    <label>Name on creditcard</label>
+                    <input type="text" placeholder="Full Name" class="name" required/>
+                </div>
+            </div>
+
+            <div class="account-name">
+                <div class="credit-name">
+                    <h4>Card type</h4>
+                    <label for="payment-type"><span><i class="fa fa-cc-visa">Credit card</i></span></label>
+                    <input type="radio" id="payment-type" name="paymentType" class="radio" required/>
+                    <label for="payment-type1"><span><i class="fa fa-cc-paypal">Paypal</i></span></label>
+                    <input type="radio" id="payment-type1" name="paymenttype1" class="radio"/>
+                </div>
+            </div>
+
+            <div class="account-name">
+                <div class="credit-name">
+                    <label>Credit card number</label>
+                    <input type="number" placeholder="card number" class="name"  minlength="16" maxlength="16" pattern='.{16}' required/>
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+
+            <div class="account-name">
+                <div class="credit-name">
+                    <label>CVC</label>
+                    <input type="number" placeholder="CVC" maxlength="3" pattern="[0-9]{3}" required/>
+                    <i class="fa fa-user icon"></i>
+                </div>
+
+                <div class="credit-name">
+                    <select id="date" name="date" required>
+                        <option>select date</option>
+                        <option>24 Nov</option>
+                        <option>25 Nov</option>
+                        <option>26 Nov</option>
+                        <option>27 Nov</option>
+                    </select>
+                    <select id="year" name="year" required>
+                        <option>select year</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                    </select>
+                </div>
+            </div>
+            <div class="account-name">
+                <div class="credit-name">
+                    <button type="submit">Pay Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
