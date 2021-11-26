@@ -80,13 +80,6 @@ h2 {
     width: 73.5vw;
     height: 8vh;
     border-radius: unset;
-    animation: progressBar 3s ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-@keyframes progressBar {
-0% { width: 0%; }
-70% { width: 70%; }
 }
   
 form p {
