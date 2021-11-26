@@ -87,14 +87,7 @@ h2 {
 #percentage {
   width: 73.5vw;
   height: 8vh;
-  border-radius: unset;
-  animation: progressBar 3s ease-in-out;
-  animation-fill-mode: forwards; 
-}
-
-@keyframes progressBar {
-0% { width: 0%; }
-30% { width: 30%; }
+  border-radius: unset; 
 }
 
 form p {
