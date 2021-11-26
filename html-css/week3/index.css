@@ -88,6 +88,7 @@ h2 {
   width: 25.5vw;
   height: 8vh;
   border-radius: unset;
+/*
   background-color: #e4c465;
   animation: progressBar 3s ease-in-out;
   animation-fill-mode: forwards; 
@@ -97,7 +98,7 @@ h2 {
 @keyframes progressBar {
 0% { width: 0%; }
 30% { width: 30%; }
-}
+}  */
 
 form p {
   margin-left: 0px;
