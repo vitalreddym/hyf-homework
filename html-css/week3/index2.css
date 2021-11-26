@@ -99,13 +99,12 @@ input[type="checkbox"]:checked {
     width: 15 px;
     height: 15 px;
     border: 2 px solid black;
-}
+} 
 
 .checkboxes {
     columns: 2 4em; 
     font-size: 20px;
-    font-family: Helvetica, sans-serif;
-    width: ; 
+    font-family: Helvetica, sans-serif; 
 }
 
 #apparal, #accessories, #handbags, #jewelry, #shoes {
