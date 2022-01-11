@@ -11,7 +11,7 @@ let dogYear = 7;
 // assume that 1 dog year equals to 5 human years
 let shouldShowResultInDogYears = false;
 if(shouldShowResultInDogYears === true) {
-let ageOfDog = (dogYearFuture - dogYearBirth) * dogYear;   
+let ageOfDog = (dogYearFuture - dogYearOfBirth) * dogYear;   
 console.log ("Your dog will be " + ageOfDog + " dog years old in " + dogYearFuture + " " );
 }
 else {
