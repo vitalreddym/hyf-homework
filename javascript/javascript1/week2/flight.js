@@ -29,9 +29,9 @@ function getFullname(firstname, lastname, useFormalName, gender){
       "Saturday",
     ];
     function getEventWeekday(daysLeft) {
-      let todaysDate = new Date().getDay();
-      let eventDate= (daysLeft % 7) + todaysDate;
-      var eventDay;
+      const todaysDate = new Date().getDay();
+      const eventDate= (daysLeft % 7) + todaysDate;
+      let eventDay;
       if(eventDate >= 7) {
         eventDay = weekday[eventDate % 7];
       } else {
@@ -53,6 +53,8 @@ function getFullname(firstname, lastname, useFormalName, gender){
         return " A coat and shoes";
       }else if (temp >=16 && temp <= 35) {
         return "It's good weather outside, enjoy with short and t-shirt";
+      }else if (temp>35) {
+        return "It's too hot outside, takecare of yourself";
       }
     }
     let clothesToWear = getYourClothes(25);
@@ -129,7 +131,7 @@ function getFullname(firstname, lastname, useFormalName, gender){
           const totalprice = candyPrice;
 
         function canBuyMoreCandy(totalprice) {
-          if(amountToSpend>candyPrice) {
+          if(amountToSpend>totalprice) {
             console.log("You can buy more candy, so please do!");
           }else {
             console.log("Enough candy for you!");
