@@ -67,7 +67,7 @@ const seriesDurations = [
     minutes: 0,
   },
 ];
-
+ 
 function logOutSeriesText() {
 let lifeSpan = 80 * 365 * 24 * 60;
 let totalDuration = 0;
