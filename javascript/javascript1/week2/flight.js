@@ -95,7 +95,7 @@ function getFullname(firstname, lastname, useFormalName, gender){
     addStudentToClass("Ram");
     console.log(class075Students);
     console.log(getNumberOfStudents());
-    
+      
 
     // Candy helper optional
     boughtCandyPrices = [];
