@@ -55,6 +55,7 @@ function getFullname(firstname, lastname, useFormalName, gender){
         return "It's good weather outside, enjoy with short and t-shirt";
       }
     }
+
     let clothesToWear = getYourClothes(25);
     console.log(clothesToWear);
 
@@ -94,6 +95,7 @@ function getFullname(firstname, lastname, useFormalName, gender){
     addStudentToClass("Ram");
     console.log(class075Students);
     console.log(getNumberOfStudents());
+    
 
     // Candy helper optional
     boughtCandyPrices = [];
