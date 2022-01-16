@@ -10,12 +10,17 @@ let dogYearFuture = 2025;
 let dogYear = 7;
 // assume that 1 dog year equals to 5 human years
 <<<<<<< HEAD
+<<<<<<< HEAD
 let shouldShowResultInDogYears = true;
 if(shouldShowResultInDogYears == true) {
 =======
 let shouldShowResultInDogYears = false;
 if(shouldShowResultInDogYears === true) {
 >>>>>>> master
+=======
+let shouldShowResultInDogYears = false;
+if(shouldShowResultInDogYears === true) {
+>>>>>>> b8823613c3eea708aa78a10022a9508555c31265
 let ageOfDog = (dogYearFuture - dogYearOfBirth) * dogYear;   
 console.log ("Your dog will be " + ageOfDog + " dog years old in " + dogYearFuture + " " );
 }
@@ -53,8 +58,13 @@ for (let i=0; i<firstWords.length; i++) {
     startupName.push(firstWords[Math.floor(Math.random() * 10)] + " " + secondWords[Math.floor(Math.random() * 10)]);
     console.log("The startup: " + startupName[i] + " contains " + startupName[i].length + " characters.");
 <<<<<<< HEAD
+<<<<<<< HEAD
 } 
 
 =======
 } 
 >>>>>>> master
+=======
+} 
+
+>>>>>>> b8823613c3eea708aa78a10022a9508555c31265
