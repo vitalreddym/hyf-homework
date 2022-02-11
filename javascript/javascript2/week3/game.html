@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Button Masher</title>
+</head>
+
+<body>
+    <h1>Fastest Presser</h1><br />
+    <button class="restart-button">Reset</button> <br><br>
+    <input type="number" class="time-input" placeholder="Enter run time" />
+    <button type="button" class="start-button">Start Game</button> <br />
+    <p class="game-result"></p>
+    <div class="game-body">
+        <div class="left-side">
+            <h2>Press S</h2>
+            <p class="left-count"></p>
+        </div>
+        <div class="right-side">
+            <h2>Press L</h2>
+            <p class="right-count"></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="node_modules/confetti-js/dist/index.min.js"></script>
+</body>
+
+</html>
