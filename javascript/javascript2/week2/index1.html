@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Value your Wallet</h1>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Payment</a></li>
+      </ul>
+    </nav>
+  </header><br>
+
+  <div class="set">
+    <label for="search">Search by product name</label>
+    <input type="text" id="search" class="search-products" placeholder="Search for a product..." />
+    <label for="max-price">Maximum Price:</label>
+    <input type="text" class="max-price" id="max-price" placeholder="Maximum price of the product" />
+    <label for="rating">Search for a rating: </label>
+    <input type="text" id="rating" class="input-rating" placeholder="Enter the rating" />
+  </div>
+  <div>
+    <h2>List of products:</h2>
+  </div>
+
+  <main>
+    <ul class="product-list"></ul>
+  </main>
+
+  <footer>All rights reserved @Hack Your Future, Copenhagen</footer>
+
+  <script src="hyfBayHelpers.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
