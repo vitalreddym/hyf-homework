@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.input {
+  width: 30%;
+  padding: 15px;
+  margin: 2px;
+  font-size: 16px;
+  color: blueviolet;
+  font-weight: 300;
+  border: 2px solid rgb(233, 173, 173);
+}
+
+.user-input {
+  width: 30%;
+  padding: 15px;
+  margin: 2px;
+  font-size: 16px;
+  color: blueviolet;
+  font-weight: 300;
+  border: 2px solid rgb(233, 173, 173);
+
+}
+
+#myBtn {
+  width: 15%;
+  padding: 15px;
+  margin: 2px;
+  color: white;
+  background-color: purple;
+  border: 2px solid purple;
+  font-size: 20px;
+}
+
+.input-number {
+  width: 30%;
+  padding: 15px;
+  margin: 2px;
+  font-size: 16px;
+  color: blueviolet;
+  font-weight: 300;
+  border: 2px solid rgb(233, 173, 173);
+}
+
+img {
+  margin: 3px;
+}
+
+.inputfield {
+  padding: 20px;
+}
