@@ -1,0 +1,57 @@
+
+[
+    {
+        "Computers": {
+            "Models": [
+                {
+                    "name": "Apple",
+                    "id": "AP01",
+                    "price": "10000",
+                    "colors": [
+                        "Black",
+                        "Silver",
+                        "Blue",
+                        "White"
+                    ],
+                    "accessories": [
+                        "Adapter",
+                        "Hearphones",
+                        "Wireless Charger"
+                    ]
+                },
+                {
+                    "name": "Lenovo",
+                    "id": "LV02",
+                    "price": "8000",
+                    "colors": [
+                        "Red",
+                        "Purple",
+                        "Black",
+                        "Grey"
+                    ],
+                    "accessories": [
+                        "Adapter",
+                        "Charger",
+                        "Touchpen"
+                    ]
+                },
+                {
+                    "name": "Asus",
+                    "id": "AS03",
+                    "price": "6000",
+                    "colors": [
+                        "Blue",
+                        "Silver",
+                        "Black",
+                        "Grey"
+                    ],
+                    "accessories": [
+                        "Charger",
+                        "Adapter",
+                        "Hearphones"
+                    ]
+                }
+            ]
+        }
+    }
+]
