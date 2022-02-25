@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="city.css">
+</head>
+
+<body>
+
+    <form id="form"><input type="text" id="search" placeholder="Search By Loaction">
+        <input type="submit" id="myBtn" value="Submit">
+    </form>
+    <main id="main">
+    </main>
+
+    <div id="map"></div>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgWmA2AEZctUqyU8sUiXl-M2EleRUEciU&callback=initMap">
+        </script>
+    <script src="city.js"></script>
+</body>
+
+</html>
