@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    text-align: justify;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #5a03fc;
+    text-decoration: underline;
+}
+
+ul {
+    width: 500px;
+    height: 250px;
+}
+
+ul li {
+    list-style: none;
+    color: red;
+}
+
+li span {
+    float: right;
+    margin-top: -50px;
+    color: lightseagreen;
+}
+
+#productsList {
+    background-color: #8fdcf7;
+    padding: 15px;
+    border: 2px solid #9845e6;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 250px;
+}
+
+#userInfo {
+    font-style: italic;
+    color: #fc03fc;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#total {
+    color: blue;
+    font-size: 18px;
+}
