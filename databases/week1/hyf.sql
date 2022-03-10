@@ -1,13 +1,13 @@
 --- task 1 ---
 SELECT
-  COUNT(id)
+  COUNT(id) as task_amount
 FROM
   task;
 
 
 --- task 2  ---
 SELECT
-  COUNT(id)
+  COUNT(id) as task_amount
 FROM
   task
 WHERE
@@ -16,7 +16,7 @@ WHERE
 
 --- task 3  ---
 SELECT
-  COUNT(id)
+  COUNT(id) as task_amount
 FROM
   task
 WHERE
@@ -25,7 +25,7 @@ WHERE
 
 --- task 4  ---
 SELECT
-  COUNT(id)
+  COUNT(id) as task_amount
 FROM
   task
 WHERE
@@ -87,13 +87,13 @@ FROM
 
 ---- task 9 Using JOINS ----
 SELECT
-  COUNT(*),
-  name
+  COUNT(task.id) as task_amount,
+  status.name
 FROM
   status
   JOIN task ON status.id = task.status_id
 GROUP BY
-  name;
+  status.name;
 
 ---- task 9 Using CASE  ----
 SELECT
@@ -118,12 +118,12 @@ GROUP BY
   
 --- task 10  ---
 SELECT
-  COUNT(*),
+  COUNT(task.id) as task_amount,
   status.name
 FROM
-  task
-  INNER JOIN status ON status.id = task.status_id
+  status
+  JOIN task ON status.id = task.status_id
 GROUP BY
   status.name
 ORDER BY
-  COUNT(*) DESC;
+  task_amount DESC;
