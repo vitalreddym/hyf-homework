@@ -12,12 +12,6 @@ app.get("/", async (request, response) => {
   response.send("Meal Sharing Web App");
 });
 
-// meals
-app.get("/meals", async (request, response) => {
-  response.send(meals);
-});
-
-// meals including reviews
 const arrayOfMeals = meals.map((meal) => {
   meal.reviews = [];
   reviews.filter((review) => {
@@ -26,6 +20,10 @@ const arrayOfMeals = meals.map((meal) => {
     }
   });
   return meal;
+});
+// meals
+app.get("/meals", async (request, response) => {
+  response.send(arrayOfMeals);
 });
 
 // cheap-meals
