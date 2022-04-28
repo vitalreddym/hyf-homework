@@ -1,0 +1,46 @@
+[
+    {
+        "id" : 1,
+        "title" : "Indian food in the summer",
+        "maxNumberOfGuests" : 5,
+        "description" : "A nice night out eating delicious indian food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 67
+    },
+
+    {
+        "id" : 2,
+        "title" : "Thandoori Biryani",
+        "maxNumberOfGuests" : 10,
+        "description" : "Best chicken biryani in indian style",
+        "createdAt" : "2019/12/15 15:34",
+        "price" : 99
+    },
+
+    {
+        "id" : 3,
+        "title" : "Italian Pizza",
+        "maxNumberOfGuests" : 3,
+        "description" : "Delicious pizza in italian style",
+        "createdAt" : "2019/12/5 16:34",
+        "price" : 70
+    },
+
+    {
+        "id" : 4,
+        "title" : "Chinese Box",
+        "maxNumberOfGuests" : 8,
+        "description" : "A different and delicious chinese food",
+        "createdAt" : "2019/12/25 17:34",
+        "price" : 55
+    },
+
+    {
+        "id" : 5,
+        "title" : "Grill Burger",
+        "maxNumberOfGuests" : 6,
+        "description" : "Tasty grilled burger",
+        "createdAt" : "2019/12/30 19:34",
+        "price" : 100
+    }
+]
