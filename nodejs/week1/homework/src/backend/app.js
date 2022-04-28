@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 
 // import data here
-const meals = require("./data/meals");
-const reservations = require("./data/reservations");
-const reviews = require("./data/reviews");
+const meals = require("./data/meals.json");
+const reservations = require("./data/reservations.json");
+const reviews = require("./data/reviews.json");
 const port = 3000;
 
 // this is where you will be adding your routes
@@ -13,19 +13,17 @@ app.get("/", async (request, response) => {
 });
 
 // meals
-app.get("/meals", async (request, response) => {
-  response.send(meals);
-});
-
-// meals including reviews
 const arrayOfMeals = meals.map((meal) => {
   meal.reviews = [];
-  reviews.filter((review) => {
+  reviews.forEach((review) => {
     if(meal.id === review.mealId) {
       meal.reviews.push(review);
     }
   });
   return meal;
+});
+app.get("/meals", async (request, response) => {
+  response.send(arrayOfMeals);
 });
 
 // cheap-meals
