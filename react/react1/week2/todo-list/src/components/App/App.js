@@ -22,7 +22,7 @@ export default class App extends Component {
 
   onSubmitTodo = () => {
     this.setState(({ todos, todoText }) => ({
-      todos: [...todos, { id: todos.length + 1, description: todoText, done: false }],
+      todos: [...todos, { id: Math.random() * 1000, description: todoText, done: false }],
       todoText: "random text "
     }));
   };
