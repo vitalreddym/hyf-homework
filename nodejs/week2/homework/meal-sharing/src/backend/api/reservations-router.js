@@ -9,7 +9,7 @@ router.get("/", async (request, response) => {
 router.get("/:id", async (request, response) => {
   response.send(
     reservations.find(
-      (reservation) => reservation.id == parseInt(request.params.id)
+      (reservation) => reservation.id === parseInt(request.params.id)
     )
   );
 });
