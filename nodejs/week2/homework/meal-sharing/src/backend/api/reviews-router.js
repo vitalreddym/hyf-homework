@@ -12,7 +12,7 @@ router.get("/:id", async (request, response) => {
     response.status(400).send("Invalid id");
   } else {
     response.send(
-      reviews.find((review) => review.id == parseInt(request.params.id))
+      reviews.find((review) => review.id === parseInt(request.params.id))
     );
   }
 });
