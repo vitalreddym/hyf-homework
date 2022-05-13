@@ -4,6 +4,7 @@ const meals = require("../data/meals.json");
 
 router.get("/", async (request, response) => {
   try {
+    const{maxPrice, limit, createdAfter, title} = request.params;
     console.log(meals);
     console.log("in /api/meals");
     // to verify for empty object
