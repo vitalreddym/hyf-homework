@@ -1,5 +1,7 @@
 Broccoli
 Cucumber
-Carrot
+Beetroot
 Tomato
 Mushroom
+Avocado
+Asparagus
